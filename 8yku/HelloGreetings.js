@@ -6,3 +6,4 @@
 
 let name = prompt("Ingrese un nombre")
 document.write("Hola " + name);
+console.log("HOLAAAAAAAAAAAAAAA Mundo");
