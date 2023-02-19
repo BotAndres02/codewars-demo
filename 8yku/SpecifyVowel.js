@@ -12,4 +12,4 @@ for (let i = 0; i < word.length; i++) {
         count++;
     }
 }
-console.log(`La palabra ${word} esta ${count} veces.`);
+console.log(`The word ${word} is ${count} times.`);

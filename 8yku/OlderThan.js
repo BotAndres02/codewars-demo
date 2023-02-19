@@ -4,24 +4,24 @@
  */
 
 //If-else
-var x = prompt("numero 1"), y = prompt("numero 2");
-if (x>y){document.write(x + " es mayor");}
-else{document.write(y + " es mayor");}
+var x = prompt("number 1"), y = prompt("number 2");
+if (x>y){document.write(x + " is older");}
+else{document.write(y + " is younger");}
 
 
 //Switch
-var x = prompt("Ingrese el numero 1");
-var y = prompt("Ingrese el numero 2");
+var x = prompt("Insert the first number");
+var y = prompt("Insert the second number");
 
-var x = prompt("Ingrese n1"); 
-var y = prompt("Ingrese n2");
+var x = prompt("Insert n1"); 
+var y = prompt("Insert n2");
 switch(x > y || x < y || x==y){
     case x > y:
-        document.write(x + " es mayor");
+        document.write(x + " is older");
         break;
     case x < y:
-        document.write(y + " es mayor");
+        document.write(y + " is younger");
         break;
     case x == y:
-        document.write("Son iguales")
+        document.write("They're equals")
 }

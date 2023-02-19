@@ -6,7 +6,7 @@ let x = 9;
 let y = 1;
 
 while (y <= 12) {
-    resultado = (x * y)
-    console.log( x+ " * " + y +" = "+ resultado);
+    result = (x * y)
+    console.log( x+ " * " + y +" = "+ result);
     y++;
 }

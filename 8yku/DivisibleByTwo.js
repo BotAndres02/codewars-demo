@@ -3,9 +3,9 @@
  * and tells if it is divisible by 2.
  */
 
-var numero = prompt("Ingrese un numero");
-if (numero % 2 == 0) {
-    document.write(numero + " es divisible");
+var number = prompt("Inset one integer");
+if (number % 2 == 0) {
+    document.write(numero + " is divisible");
 } else{
-    document.write(numero + " no es divisivle");
+    document.write(numero + " is not divisible");
 }

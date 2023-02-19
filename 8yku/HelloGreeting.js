@@ -4,5 +4,5 @@
  * a text that says "Hello User name".
  */
 
-let name = prompt("Ingrese un nombre")
-document.write("Hola " + name);
+let name = prompt("Enter your name")
+document.write("Hi " + name);

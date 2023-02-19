@@ -4,10 +4,10 @@
  *  until the correct password is entered.
  */
 
-var contraseña = prompt("Escriba su contraseña")
-if(contraseña !== "AzbYxds" ){
-    alert("Contraseña Incorrecta");
+var password = prompt("Write your password")
+if(password !== "AzbYxds" ){
+    alert("Incorrect password");
 }
 else{
-    alert("Contraseña correcta");
+    alert("Signing in");
 }

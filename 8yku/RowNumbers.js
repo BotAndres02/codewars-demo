@@ -4,7 +4,7 @@
  * any number separated by commas.
  */
 
-var numero = 5;
-    for (let i = 1; i <= numero; i+=2) {
+var number = 5;
+    for (let i = 1; i <= number; i+=2) {
         console.log(i + ",");
     }

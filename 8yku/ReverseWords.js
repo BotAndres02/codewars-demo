@@ -4,7 +4,7 @@
  * the letters of the word entered starting with the last letter.
  */
 
-var palabra = "Tren";
-for (let i = palabra.length; i >= 0; i--) {
-    console.log(palabra.charAt(i));
+var word = "Tren";
+for (let i = word.length; i >= 0; i--) {
+    console.log(word.charAt(i));
 }

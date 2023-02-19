@@ -3,7 +3,7 @@
  * word and displays it on the screen 10 times.
  */
 
-var word = prompt("Escribir un programa");
+var word = prompt("Write a program");
 for (let i = 0; i < 10; i++) {
     document.write(word + "<br>");
 }
